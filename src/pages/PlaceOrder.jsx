@@ -1,8 +1,9 @@
 import React from "react";
+import Helmet from "../components/Helmet/Helmet";
 import "../styles/PlaceOrder.css";
 
 const PlaceOrder = () => {
-  return <div>PlaceOrder</div>;
+  return <Helmet title="PlaceOrder">PlaceOrder</Helmet>;
 };
 
 export default PlaceOrder;

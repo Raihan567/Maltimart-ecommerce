@@ -1,10 +1,9 @@
-import React from 'react'
-import '../styles/Cart.css'
+import React from "react";
+import Helmet from "../components/Helmet/Helmet";
+import "../styles/Cart.css";
 
 const Cart = () => {
-  return (
-    <div>Cart</div>
-  )
-}
+  return <Helmet title="Cart">Cart</Helmet>;
+};
 
-export default Cart
+export default Cart;

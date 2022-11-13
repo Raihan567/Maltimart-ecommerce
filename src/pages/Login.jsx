@@ -1,10 +1,9 @@
-import React from 'react'
-import '../styles/Login.css'
+import React from "react";
+import Helmet from "../components/Helmet/Helmet";
+import "../styles/Login.css";
 
 const Login = () => {
-  return (
-    <div>Login</div>
-  )
-}
+  return <Helmet title="Login">Login</Helmet>;
+};
 
-export default Login
+export default Login;
