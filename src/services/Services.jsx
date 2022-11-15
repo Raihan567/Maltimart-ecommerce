@@ -12,7 +12,7 @@ const Services = () => {
           {serviceDetails.map((item, index) => (
             <Col lg="3" md="4" key={index}>
               <motion.div
-                whileHover={{ scale: 1.2 }}
+                whileHover={{ scale: 1.1 }}
                 className="service__item"
                 style={{ background: `${item.bg}` }}
               >

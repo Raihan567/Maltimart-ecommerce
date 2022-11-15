@@ -23,7 +23,7 @@ const Home = () => {
                   enim nam nisi blanditiis, ipsam quae optio dolore natus
                   quisquam eligendi.
                 </p>
-                <motion.button whileTap={{ scale: 1.1 }} className="buy__btn">
+                <motion.button whileTap={{ scale: 1.2 }} className="buy__btn">
                   <Link to="/shop">SHOP NOW</Link>
                 </motion.button>
               </div>

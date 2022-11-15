@@ -11,7 +11,7 @@
   color: var(--primary-color);
 }
 .hero__subtitle {
-  padding-top: 60px;
+  padding-top: 60px !important;
 }
 .buy__btn {
   border: none;
