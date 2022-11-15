@@ -15,15 +15,15 @@ const Routers = () => {
   return (
     <Routes>
       <Route path="/" element={<Navigate to="home" />} />
-      <Route path="/home" element={<Home />} />
-      <Route path="/shop" element={<Shop />} />
-      <Route path="/shop/:id" element={<ProductDetails />} />
-      <Route path="/cart" element={<Cart />} />
-      <Route path="/cart" element={<Cart />} />
-      <Route path="/placeOrder" element={<PlaceOrder />} />
-      <Route path="/checkout" element={<Checkout />} />
-      <Route path="/login" element={<Login />} />
-      <Route path="/signup" element={<Signup />} />
+      <Route path="home" element={<Home />} />
+      <Route path="shop" element={<Shop />} />
+      <Route path="shop/:id" element={<ProductDetails />} />
+      <Route path="cart" element={<Cart />} />
+      <Route path="cart" element={<Cart />} />
+      <Route path="placeOrder" element={<PlaceOrder />} />
+      <Route path="checkout" element={<Checkout />} />
+      <Route path="login" element={<Login />} />
+      <Route path="signup" element={<Signup />} />
       <Route path="*" element={<Navigate to="home" />} />
     </Routes>
   );
