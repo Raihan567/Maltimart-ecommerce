@@ -33,7 +33,7 @@ const Header = () => {
     navigate("cart");
   };
   return (
-    <header className="header sticky-nav overflow-x border-bottom bg-white">
+    <header className="header sticky-top border-bottom bg-white">
       <Container>
         <Row>
           <div className="nav__wrapper">

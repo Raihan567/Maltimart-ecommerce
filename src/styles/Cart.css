@@ -1,0 +1,15 @@
+.cart__section {
+  /* padding:100px 0; */
+}
+.table tr td img {
+  width: 60px !important;
+  height: 60px;
+  object-fit: contain;
+}
+td i {
+  cursor: pointer;
+}
+
+.price {
+  font-weight: 600 !important;
+}
