@@ -29,3 +29,12 @@
   text-decoration: none;
   color: #fff;
 }
+.timer__counter {
+  background: var(--primary-color);
+  height: 350px;
+}
+.timer__counter img {
+  width: 70%;
+  height: 70%;
+  object-fit: contain;
+}

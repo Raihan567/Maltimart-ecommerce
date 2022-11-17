@@ -8,6 +8,8 @@ import Helmet from "../components/Helmet/Helmet";
 import ProductList from "../components/Ui/ProductList";
 import Services from "../services/Services";
 import "../styles/Home.css";
+import counterImg from "../assets/images/counter-timer-img.png";
+import Clock from "../components/Ui/Clock";
 const Home = () => {
   const [trendingProducts, setTrendingProducts] = useState([]);
   const [bestSalesProducts, setBestSalesProducts] = useState([]);
@@ -95,6 +97,22 @@ const Home = () => {
         </Container>
       </section>
       {/* Time Counter */}
+      <section className="timer__counter">
+        <Container>
+          <Row>
+            <Col lg="6">
+              <div className="clock__top-counter">
+                <h4 className="text-white fs-2  ">Limited Offers</h4>
+                <h3 className="text-white fs-5 mb-4">Quality ArmChair</h3>
+              </div>
+              <Clock />
+            </Col>
+            <Col lg="6">
+              <img className="img-fluid" src={counterImg} alt="" />
+            </Col>
+          </Row>
+        </Container>
+      </section>
 
       {/* New Arrivals */}
       <section className="trending__products">
@@ -108,7 +126,7 @@ const Home = () => {
           </Row>
         </Container>
       </section>
-      
+
       {/* New Arrivals */}
       <section className="trending__products">
         <Container>
