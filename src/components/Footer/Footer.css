@@ -1,0 +1,13 @@
+.footer {
+  background: var(--primary-color);
+  padding-top: 60px;
+  color: #fff;
+}
+
+.footer__quick-link ul li,
+.footer__quick-link i {
+  background: transparent;
+}
+.footer__quick-link ul li a {
+  color: rgba(255, 255, 255, 0.753);
+}
