@@ -3,6 +3,13 @@
   height: 70px;
   line-height: 70px;
 }
+.sticky-nav {
+  background-color: #3a24f0 !important;
+  text-align: center;
+  width: 100%;
+  position: fixed;
+  top: 0px;
+}
 
 .nav__wrapper {
   display: flex;

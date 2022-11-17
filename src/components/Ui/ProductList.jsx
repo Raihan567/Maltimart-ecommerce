@@ -1,8 +1,14 @@
 import React from "react";
-import "../../styles/ProductList.css";
+import ProductCard from "./ProductCard";
 
-const ProductList = () => {
-  return <div>ProductList</div>;
+const ProductList = ({ data }) => {
+  return (
+    <>
+      {data?.map((item) => (
+        <ProductCard item={item} key={item.id} />
+      ))}
+    </>
+  );
 };
 
 export default ProductList;
