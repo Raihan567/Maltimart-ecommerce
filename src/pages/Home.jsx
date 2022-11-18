@@ -106,9 +106,12 @@ const Home = () => {
                 <h3 className="text-white fs-5 mb-4">Quality ArmChair</h3>
               </div>
               <Clock />
+              <motion.button whileTap={{ scale: 1.2 }} className="store__btn">
+                <Link to="/shop">SHOP NOW</Link>
+              </motion.button>
             </Col>
-            <Col lg="6">
-              <img className="img-fluid" src={counterImg} alt="" />
+            <Col lg="6" className="text-end">
+              <img className="img-fluid " src={counterImg} alt="" />
             </Col>
           </Row>
         </Container>

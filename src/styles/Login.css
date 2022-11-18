@@ -1,0 +1,12 @@
+.login__section {
+}
+.auth__form {
+  background: var(--primary-color);
+  padding: 40px;
+  border-radius: 5px;
+}
+.auth__btn {
+  background: #fff;
+  color: #000;
+  font-weight: 600;
+}
